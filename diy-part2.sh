@@ -34,22 +34,9 @@ svn export https://github.com/thecupangin/CupangOs-LEDE/trunk/amlogic-s9xxx/comm
 git clone https://github.com/jerrykuku/luci-theme-argon.git
 git clone https://github.com/jerrykuku/luci-app-argon-config.git
 
-# Add luci-app-openclash
-svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
-
-# Add luci-app-vssr
-git clone https://github.com/jerrykuku/lua-maxminddb.git
-git clone https://github.com/jerrykuku/luci-app-vssr.git 
-
-# Add passwall2
-svn co https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 package/luci-app-passwall2
+# Add kiddin9 packages
+git clone https://github.com/kiddin9/openwrt-packages.git
 
 # Add luci-app-amlogic
 svn co https://github.com/ophub/luci-app-amlogic/trunk package/luci-app-amlogic
 
-#helmi-package
-svn co https://github.com/helmiau/helmiwrt-packages/trunk/corkscrew package/corkscrew
-svn co https://github.com/helmiau/helmiwrt-packages/trunk/badvpn package/badvp
-
-# Add redsocks2
-svn co https://github.com/kenzok8/openwrt-packages/trunk/redsocks2 package/redsocks2
