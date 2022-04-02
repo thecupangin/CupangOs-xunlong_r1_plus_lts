@@ -13,7 +13,7 @@
 # Modify default IP
 sed -i 's/192.168.2.1/10.10.10.1/g' package/base-files/files/bin/config_generate
 
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
+#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
 # change ssid
 #sed -i "s/OpenWrt/CupangOs/g" package/kernel/mac80211/files/lib/wifi/mac80211.sh
@@ -34,9 +34,9 @@ svn export https://github.com/thecupangin/CupangOs-LEDE/trunk/amlogic-s9xxx/comm
 #git clone https://github.com/kiddin9/openwrt-packages.git
 
 # Add luci-theme-argon
-git clone https://github.com/jerrykuku/luci-theme-argon.git
-git clone https://github.com/jerrykuku/luci-app-argon-config.git
+#git clone https://github.com/jerrykuku/luci-theme-argon.git
+#git clone https://github.com/jerrykuku/luci-app-argon-config.git
 
 # Add luci-app-amlogic
-svn co https://github.com/ophub/luci-app-amlogic/trunk package/luci-app-amlogic
+#svn co https://github.com/ophub/luci-app-amlogic/trunk package/luci-app-amlogic
 
