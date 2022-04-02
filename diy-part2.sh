@@ -48,8 +48,6 @@ svn co https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 p
 svn co https://github.com/ophub/luci-app-amlogic/trunk package/luci-app-amlogic
 
 #helmi-package
-svn co https://github.com/helmiau/helmiwrt-packages/trunk/luci-app-netmon package/luci-app-netmon
-svn co https://github.com/helmiau/helmiwrt-packages/trunk/luci-app-tinyfm package/luci-app-tinyfm
 svn co https://github.com/helmiau/helmiwrt-packages/trunk/corkscrew package/corkscrew
 svn co https://github.com/helmiau/helmiwrt-packages/trunk/badvpn package/badvp
 
