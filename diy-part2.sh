@@ -30,12 +30,12 @@ sed -i "s/UTC/Asia\/Jakarta/g" package/base-files/files/bin/config_generate
 rm -rf ./package/base-files/files/etc/banner
 svn export https://github.com/thecupangin/CupangOs-LEDE/trunk/amlogic-s9xxx/common-files/files/etc/banner package/base-files/files/etc/banner
 
+# Add kiddin9 packages
+git clone https://github.com/kiddin9/openwrt-packages.git
+
 # Add luci-theme-argon
 git clone https://github.com/jerrykuku/luci-theme-argon.git
 git clone https://github.com/jerrykuku/luci-app-argon-config.git
-
-# Add kiddin9 packages
-git clone https://github.com/kiddin9/openwrt-packages.git
 
 # Add luci-app-amlogic
 svn co https://github.com/ophub/luci-app-amlogic/trunk package/luci-app-amlogic
