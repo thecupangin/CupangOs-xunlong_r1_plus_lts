@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.2.1/10.10.10.1/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.2.1/10.10.10.1/g' package/base-files/files/bin/config_generate
 
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
 
@@ -23,7 +23,7 @@ sed -i 's/192.168.2.1/10.10.10.1/g' package/base-files/files/bin/config_generate
 sed -i "s/OpenWrt/CupangOs/g" package/base-files/files/bin/config_generate
 
 # change timezone
-sed -i "s/UTC/Asia\/Jakarta/g" package/base-files/files/bin/config_generate
+#sed -i "s/UTC/Asia\/Jakarta/g" package/base-files/files/bin/config_generate
 #sed -i -e "s/CST-8/WIB-7/g" -e "s/Shanghai/Jakarta/g" package/default-settings/files/zzz-default-settings
 
 # change banner
