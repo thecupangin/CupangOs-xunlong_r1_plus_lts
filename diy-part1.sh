@@ -18,5 +18,3 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 #sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
-# Add kiddin9 packages
-git clone https://github.com/kiddin9/openwrt-packages.git
